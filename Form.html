@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<for>, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+     <center> <h1>Payment Form</h1> </center>
+     <hr>
+     <div>Name  : <input type="text"></div>
+     <br>
+     <fieldset><legend>GENDER</legend>
+     <div>Male<input type="radio" name="Male">
+     Female<input type="radio" name="Female"></div>
+    </fieldset>
+    <br>
+     <div> Address : <textarea name="address" id="address" cols="20" rows="0"></textarea>
+<br>
+     <button type="submit" value="Submit">Submit</button>
+
+
+     <hr>
+<h1>PAYMENT FROM</h1>
+<div>
+    <select>
+        <p>CHOOSE</p><option>---Select the option---</option>
+        <option>Paypal</option>autofocus
+        <option>Rupay</option>
+        <option>PAISA</option>
+    </select>
+</div>
+
+     </form>
+</body>
+</html>
+
+
+
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Form</title>
+ </head>
+ <body>
+    <form>
+        <fieldset>
+            <legend> <h2>Payment Details</h2></legend>
+        <h2>Payment Form</h2>
+        <P>Name : <input type="text" name="name" id="name"></P>
+<fieldset>
+ 
+      
+        <legend>GENDER</legend>
+        <p> Male <input type="radio" name="gender"> Female <input type="radio" name="gender"></p> 
+    </fieldset>
+
+    <p>Address : <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+
+    <p>Email : <input type="email"name="email" id="email"></p>
+
+<p>Pincode : <input type="number"name="pincode" id="pincode"    ></p>
+
+<h2>Payment Information</h2>
+<p>Card type:
+    <select name="card_type" id="card_type"required>
+        <option value="">SELECT CARD</option>
+        <option value="visa">VISA</option>
+        <option value="Rupay">Rupay</option>
+    </select>
+</p>
+<p>
+    Card Number 
+    <input type="number" name="card_number" id="card_number"required>
+</p>
+<p>
+    Expiration Date: <input type="date" name="expdate" id="expdate">
+</p>
+<p>CVV <input type="password"name="cvv"id="cvv"></p>
+
+<input type="submit" value="PAY NOW">
+</fieldset>
+    </form>
+ </body>
+ </html>
